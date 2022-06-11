@@ -1,6 +1,6 @@
 # IDragon-Game
 
-we will make an interesting game named iDragon. We will make this possible with the help of HTML, CSS, and pure Javascript without any external library.  We will add music, animation, score features, etc in this game and code this game in a way where you can challenge your friends to play and break your score. 
+Here, we will make an interesting game named iDragon. We will make this possible with the help of HTML, CSS, and pure Javascript without any external library.  We will add music, animation, score features, etc in this game and code this game in a way where you can challenge your friends to play and break your score. 
 
 Surely you will get addicted to playing your own coded game.
 
