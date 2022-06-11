@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+/************* home setup *********************/
+.home{
+    background: url('./Images/background1.jpg') no-repeat center center/cover ;
+    height:100vh;
+   
+}
+.home>h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff841b;
+    padding: 10px;
+        
+}
+.dino{
+    background: url('./Images/Hero.png') no-repeat center center/cover ;
+    position: absolute;
+    bottom:119px;
+    /* width: 350px;
+    height: 180px; */
+    width: 230px;
+    height: 120px;
+    left: 52px;
+}
+.obstacle{
+    background: url('./Images/killer.png') no-repeat center center/cover ;
+    position: absolute;
+    bottom:120px;
+    width: 207px;
+    height: 135px;
+    left: 500px;
+}
+.animateDino{
+    animation: dino 0.6s linear;
+}
+.obstacleAni{
+    animation: obstacleAni 1s linear infinite;
+}
+.gameOver{ 
+    visibility: hidden;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #fd4901;
+    color: #ff0015;
+    background: #f6f6f6;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    width: 12%;
+    border-radius: 8px;
+}
+
+@keyframes dino {
+    0%{
+       bottom: 120px;
+    }
+    50%{
+         bottom: 422px;
+    }
+    100%{
+        bottom: 120px;
+      
+    }
+    
+}
+@keyframes obstacleAni {
+    0%{
+        left: 100vw;
+     }
+     100%{
+          left:-10vw;
+     } 
+
+}
+#scorecont{
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #0e1889;
+    color: #0e1889;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+    width: 15%;
+    border-radius: 8px;
+}
